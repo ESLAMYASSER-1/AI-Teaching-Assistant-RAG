@@ -39,7 +39,7 @@ async def lifespan(app: FastAPI):
     )
     yield
     # On shultdown
-    app.mongo_conn.close()
+    await app.mongo_conn.close()
     app.vectordb_client.disconnect()
 
 app = FastAPI(lifespan=lifespan)

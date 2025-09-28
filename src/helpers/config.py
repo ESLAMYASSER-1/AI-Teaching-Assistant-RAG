@@ -23,6 +23,7 @@ class Settings(BaseSettings):
     GENERATION_MODEL_ID: str = None
     EMBEDDING_MODEL_ID: str = None
     EMBEDDING_MODEL_SIZE: int = None
+    EMBEDDING_MODEL_PATH: str = None
     INPUT_DAFAULT_MAX_CHARACTERS: int = None
     GENERATION_DAFAULT_MAX_TOKENS: int = None
     GENERATION_DAFAULT_TEMPERATURE: float = None

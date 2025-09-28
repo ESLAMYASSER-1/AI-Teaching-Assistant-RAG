@@ -1,6 +1,4 @@
-# mini-rag
-
-This is a minimal implementation of the RAG model for question answering.
+# pasos Learning Assistant
 
 ## Requirements
 
@@ -44,12 +42,11 @@ $ cp .env.example .env
 
 
 ```bash
-$ cd docker
-$ sudo docker compose up -d
+$ cd docker && sudo docker compose up -d && cd ..
 ```
 
 ## Run the FastAPI server
 
 ```bash
-$ uvicorn main:app --reload --host 0.0.0.0 --port 5000
+$ cd src && uvicorn main:app --reload --host 0.0.0.0 --port 5000 && cd ..
 ```
