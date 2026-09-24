@@ -108,7 +108,7 @@ FILE_DEFAULT_CHUNK_SIZE=512000 # 512KB
 # --- MongoDB ---
 # Use the credentials from docker/.env
 MONGODB_URL="mongodb://your_user:your_password@localhost:27007"
-MONGODB_DATABASE="pasos-rag"
+MONGODB_DATABASE="AI-Teaching-Assistant-RAG"
 
 # --- LLM Config ---
 # Choose your backends: OPENAI, COHERE, IntFloat (for embedding)
