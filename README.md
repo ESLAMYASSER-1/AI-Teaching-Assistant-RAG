@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571)
 ![Qdrant](https://img.shields.io/badge/VectorDB-Qdrant-DC244C)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 A Retrieval-Augmented Generation (RAG) backend that turns uploaded documents into a searchable knowledge base and answers questions with context-aware, LLM-generated responses — in English and Arabic.
 
