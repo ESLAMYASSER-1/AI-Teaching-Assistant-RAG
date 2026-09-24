@@ -97,7 +97,7 @@ Open `src/.env` and fill in the required values. **You must update the `MONGODB_
 
 ```env
 # Example src/.env configuration
-APP_NAME="pasos-RAG"
+APP_NAME="AI-Teaching-Assistant-RAG"
 APP_VERSION="0.1"
 
 # --- File Upload Settings ---
