@@ -111,7 +111,3 @@ uvicorn main:app --reload --host 0.0.0.0 --port 5000
 - [ ] Automated test suite
 - [ ] Caching layer for repeated queries
 - [ ] Hosted live demo
-
-## License
-
-MIT — see [LICENSE](LICENSE).
